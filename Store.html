@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>متجر موسيقاتي - تشكيلة الالات الموسيقية</title>
+    <link rel="stylesheet" href="mainCSS.css">
+</head>
+<body>
+
+<div class="header">
+
+    <div class="header-right-side">
+        <img src="شعار متجر موسيقاتي.png"
+             alt="شعار موسيقاتي"
+             class="logo-img">
+    </div>
+
+    <div class="nav">
+        <a href="Main.html"><img src="زر الرئيسية.png" alt="الرئيسية" class="nav-img"></a>
+        <a href="store.html"><img src="زر المتجر.png" alt="المتجر" class="nav-img"></a>
+        <a href="cart.html"><img src="زر سلة الطلبات.png" alt="السلة" class="nav-img"></a>
+        <a href="contact.html"><img src="زر تواصل معنا.png" alt="تواصل معنا" class="nav-img"></a>
+        <a href="about.html"><img src="من نحن.png" alt="من نحن" class="nav-img"></a>
+    </div>
+
+</div> 
+    <div class="store-container">
+        <h1 class="store-main-title">اقسام الالات الموسيقية والمعدات الاحترافية</h1>
+
+        <div class="category-section" id="piano-section">
+            <h2 class="category-title">قسم ات البيانو الفاخرة</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="p0.png" alt="بيانو رقمي" class="product-img">
+                    <h3>بيانو رقمي متطور</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> بيانو الكتروني بثمانية وثمانين مفتاحا حساسا مع محاكاة دقيقة لاصوات البيانو الملكي.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> اسود، ابيض</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">450 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="بيانو رقمي متطور" data-price="450" data-img="p0.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p1.png" alt="بيانو كلاسيك" class="product-img">
+                    <h3>بيانو كلاسيكي خشبي</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> بيانو عمودي مصنوع من اجود انواع الاخشاب الطبيعية ليعطي رنينا دافئا واصيلا يناسب القاعات.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> بني، اسود</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">2800 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="بيانو كلاسيكي خشبي" data-price="2800" data-img="p1.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p2.png" alt="كيبورد الكتروني" class="product-img">
+                    <h3>اورج الكتروني احترافي</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> لوحة مفاتيح موسيقية مجهزة بمئات الاصوات والايقاعات الشرقية والغارية الجاهزة للتوزيع الموسيقي.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> رمادي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">220 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="اورج الكتروني احترافي" data-price="220" data-img="p2.png">إضافة إلى العربة</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section" id="trumpet-section">
+            <h2 class="category-title">قسم الات البوق والنفخ النحاسية</h2>
+            <div class="products-grid grid-4-columns">
+                <div class="product-card">
+                    <img src="p3.png" alt="ترومبيت ذهبي" class="product-img">
+                    <h3>بوق ترومبيت ذهبي</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> الة ترومبيت نحاسية مطلية بالذهب اللامع مصممة بدقة لتعطي نغمات حادة وقوية.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> ذهبي، فضي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">180 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="بوق ترومبيت ذهبي" data-price="180" data-img="p3.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p4.png" alt="ساكسفون احترافي" class="product-img">
+                    <h3>الة ساكسفون كلاسيك</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> ساكسفون التو مخصص لعزف موسيقى الجاز والارشاد الموسيقي مع طقم تنظيف وحقيبة فاخرة.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> نحاسي، برونزي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">390 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="الة ساكسفون كلاسيك" data-price="390" data-img="p4.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p5.png" alt="ترومبون نحاسي" class="product-img">
+                    <h3>الة ترومبون احترافية</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> الة نفخ نحاسية تتميز بصوتها الرخيم والعميق وميكانيكية سحب سلسة جدا ومريحة.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> ذهبي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">290 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="الة ترومبون احترافية" data-price="290" data-img="p5.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p6.png" alt="فلوت فضي" class="product-img">
+                    <h3>الة فلوت فضية</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> الة فلوت غربية مصنوعة من النيكل ومطلية بالفضة تعطي اصواتا ناعمة وساحرة للاوركسترا.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> فضي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">120 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="الة فلوت فضية" data-price="120" data-img="p6.png">إضافة إلى العربة</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section" id="oud-section">
+            <h2 class="category-title">قسم الات العود والوتريات الشرقية</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="p7.png" alt="عود تعليمي" class="product-img">
+                    <h3>عود شرقي للمبتدئين</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> عود تعليمي بوزن خفيف ومقاسات قياسية مريحة تساعد الطلاب على تعلم العزف بسهولة.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> بني</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">85 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="عود شرقي للمبتدئين" data-price="85" data-img="p7.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p8.png" alt="عود احترافي" class="product-img">
+                    <h3>عود عراقي احترافي</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> عود مصمم على الطريقة العراقية الشهيرة بصوت رنان ومصنوع من خشب الجوز والسيسم.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> خشب طبيعي</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">320 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="عود عراقي احترافي" data-price="320" data-img="p8.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p9.png" class="product-img" alt="عود كهربائي">
+                    <h3>عود كهربائي متطور</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> عود صامت مزود بلقاطات صوت الكترونية احترافية لربطه مباشرة مع السماعات ومعدات الحفلات.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> اسود، بني</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">190 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="عود كهربائي متطور" data-price="190" data-img="p9.png">إضافة إلى العربة</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section" id="studio-section">
+            <h2 class="category-title">قسم معدات الاستوديو والهندسة الصوتية</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="p10.png" alt="كرت صوت" class="product-img">
+                    <h3>واجهة صوتية رقمية</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> كرت صوت خارجي احترافي عالي الدقة لتسجيل الميكروفونات والالات بنقاء استوديو كامل.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> احمر، اسود</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">145 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="واجهة صوتية رقمية" data-price="145" data-img="p10.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p11.png" alt="ميكروفون" class="product-img">
+                    <h3>ميكروفون مكثف احترافي</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> ميكروفون كوندنسر ذو حساسية فائقة لالتقاط ادق تفاصيل الغناء داخل غرف التسجيل.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> فضي، اسود</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">95 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="ميكروفون مكثف احترافي" data-price="95" data-img="p11.png">إضافة إلى العربة</button>
+                </div>
+                <div class="product-card">
+                    <img src="p12.png" alt="سماعات مراقبة" class="product-img">
+                    <h3>سماعات مراقبة ستوديو</h3>
+                    <div class="product-new-details">
+                        <p class="detail-item"><strong>التفاصيل:</strong> سماعات راس احترافية ذات استجابة ترددية مسطحة تماما مخصصة للمكساج والماسترنج الصوتي.</p>
+                        <p class="detail-item"><strong>الالوان المتوفرة:</strong> اسود</p>
+                        <p class="detail-item"><strong>السعر:</strong> <span class="price-text">110 د.أ</span></p>
+                    </div>
+                    <button class="add-to-cart-btn" data-name="سماعات مراقبة ستوديو" data-price="110" data-img="p12.png">إضافة إلى العربة</button>
+                </div>
+            </div>
+        </div>
+<div class="category-section" id="gifts-section">
+
+    <h2 class="category-title">قسم الهدايا والإكسسوارات الفاخرة</h2>
+
+    <div class="products-grid">
+
+        <div class="product-card">
+            <img src="g1.png" alt="حامل نوتة" class="product-img">
+            <h3>حامل نوتة موسيقية</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">حامل قابل للتعديل للنوطات الموسيقية</p>
+                <p class="detail-item"><strong>السعر:</strong> <span class="price-text">25 د.أ</span></p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="حامل نوتة موسيقية"
+                data-price="25"
+                data-img="g1.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="g2.png" alt="طقم ريش" class="product-img">
+            <h3>طقم ريش عود فاخرة</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">ريش احترافية للعزف على العود</p>
+                <p class="detail-item"><strong>السعر:</strong> <span class="price-text">15 د.أ</span></p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="طقم ريش عود فاخرة"
+                data-price="15"
+                data-img="g2.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="g3.png" alt="كوبون" class="product-img">
+            <h3>كوبون هدية (50 د.أ)</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">يمكن استخدامه في أي عملية شراء</p>
+                <p class="detail-item"><strong>السعر:</strong> <span class="price-text">50 د.أ</span></p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="كوبون هدية 50"
+                data-price="50"
+                data-img="g3.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="category-section" id="offers-section">
+
+    <h2 class="category-title">العروض الخاصة والباقات الحصرية</h2>
+
+    <div class="products-grid">
+
+        <div class="product-card">
+            <img src="offer1.png" alt="عرض البيانو" class="product-img">
+            <h3>باقة عازف البيانو</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">
+                    بيانو رقمي + سماعات احترافية
+                </p>
+
+                <p class="detail-item">
+                    السعر قبل الخصم:
+                    <span style="text-decoration: line-through;">560 د.أ</span>
+                </p>
+
+                <p class="detail-item">
+                    السعر بعد الخصم:
+                    <span class="price-text">499 د.أ</span>
+                </p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="باقة عازف البيانو"
+                data-price="499"
+                data-img="offer1.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="offer2.png" alt="عرض العود" class="product-img">
+            <h3>باقة العود الاحترافية</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">
+                    عود احترافي + حقيبة + ريش
+                </p>
+
+                <p class="detail-item">
+                    السعر قبل الخصم:
+                    <span style="text-decoration: line-through;">350 د.أ</span>
+                </p>
+
+                <p class="detail-item">
+                    السعر بعد الخصم:
+                    <span class="price-text">299 د.أ</span>
+                </p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="باقة العود الاحترافية"
+                data-price="299"
+                data-img="offer2.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="offer3.png" alt="عرض الاستوديو" class="product-img">
+            <h3>باقة الاستوديو المنزلي</h3>
+
+            <div class="product-new-details">
+                <p class="detail-item">
+                    ميكروفون + كرت صوت + سماعات
+                </p>
+
+                <p class="detail-item">
+                    السعر قبل الخصم:
+                    <span style="text-decoration: line-through;">350 د.أ</span>
+                </p>
+
+                <p class="detail-item">
+                    السعر بعد الخصم:
+                    <span class="price-text">279 د.أ</span>
+                </p>
+            </div>
+
+            <button class="add-to-cart-btn"
+                data-name="باقة الاستوديو المنزلي"
+                data-price="279"
+                data-img="offer3.png">
+                إضافة إلى العربة
+            </button>
+        </div>
+
+    </div>
+
+</div>
+        <div class="promo-video-section">
+            <h2>العرض الترويجي لمتجر موسيقاتي بالرسوم المتحركة</h2>
+            <div class="video-wrapper">
+                <video autoplay muted loop controls class="promo-video">
+                    <source src="promo.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل هذا الفيديو.
+                </video>
+            </div>
+            <p class="video-caption">شاهد الرسوم المتحركة الخاصة بالوحدة السادسة وتعرف على خدماتنا المميزة</p>
+        </div>
+    </div>
+
+    <div class="bottom-blue-box">
+        <div class="bottom-links">
+            <a href="app-download.html" target="_blank">تحميل تطبيق موسيقاتي</a>
+            <a href="https://wa.me/9627XXXXXXXX" target="_blank">الانتقال الى واتساب</a>
+            <a href="https://instagram.com/MOSIQATI" target="_blank">الانتقال الى انستاجرام</a>
+        </div>
+        <div class="project-info">
+            <p>اسم المشروع: موقع ويب لمتجر موسيقاتي</p>
+            <p>المقيم: إميل الطوال</p>
+            <p>الطالب: ماجد الحامد</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
